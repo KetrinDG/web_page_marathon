@@ -1,0 +1,619 @@
+
+:root{
+    --main-font: 'Roboto', sana-serif;
+    --main-light: #fff;
+    --main-dark: #000;
+    --main-color-font: #8F95A5;
+    --secondary-color: #212121;
+    --back-color: #F5F4FA;
+    --main-back: #2196F3;}
+.link{
+    text-decoration: none;
+    font-style: normal;
+}
+li {list-style-type: none;}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--main-color-font);
+    background: var(--main-light);
+}
+
+/*header*/
+
+.logo {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--main-back);
+    text-decoration: none;}
+.logo_end {
+    color: var(--main-dark)}
+
+.studio  {
+    width: 45px;
+    left: 453px;
+    color: var(--main-back);
+    position: absolute;
+    height: 16px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none; }
+.studio:hover{color: var(--main-back);}
+.portfolio {
+    width: 72px;
+    left: 548px;
+    color: var(--secondary-color);
+    position: absolute;
+    height: 16px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none; }
+.portfolio:hover{color: var(--main-back);}
+.contact{
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    text-decoration: none;}
+.contact:hover{color: var(--main-back);}
+.mail{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;}
+.mail:hover{color: var(--main-back);}
+.tel{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;}
+.tel:hover{color: var(--main-back);}
+.mailIcon{
+    position: absolute;
+    left: 1052px;
+    right: 532px;
+    top: 34px;
+    bottom: 34px;
+    background: var(--main-back)}
+.telIcon{
+    position: absolute;
+    left: 1243px;
+    right: 347px;
+    top: 32px;
+    bottom: 32px;}
+
+/* Ефективні рішення для вашого бізнесу  */
+.overpick {
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: rgba(47, 48, 58, 0.4);
+}
+.efectText {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-light);
+}
+.btn{position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    text-decoration:none;
+    cursor:pointer;
+    font-weight:700;
+    line-height:1.87;
+    font-size:16px;
+    border-radius:4px;
+    color: var(--main-light);
+    font-family: 'Roboto';
+    background-color: var(--main-back);
+    border:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
+.btn:hover{
+
+    background-color: #2196F3;;
+}
+/* Особливості*/
+.our_features {
+    position: absolute;
+/*    width: 1170px;
+    height: 248px;
+    left: 215px;
+    top: 774px;
+*/
+}
+.details{
+    position: absolute;
+    left: 215px;
+
+}
+.overVec {
+    position: absolute;
+    width: 270px;
+    height: 120px;
+    top: 774px;
+    background: var(--back-color);
+    border-radius: 4px;
+}
+
+h3{
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    top: 924px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.12;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);}
+.text_features{
+    position: absolute;
+    width: 270px;
+    height: 72px;
+    top: 950px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+.punctuality{position: absolute;
+    left: 515px;}
+
+.plan{position: absolute;
+    left: 815px;}
+
+.modern{position: absolute;
+    left: 1115px;}
+
+h2{
+    position: absolute;
+
+    left: 617px;
+    top: 1116px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color)}
+
+.placeOne{
+    position: absolute; 
+    top: 1208px;
+    left: 215px;
+    mix-blend-mode: normal;}
+.placeTwo{
+    position: absolute;
+    left: 615px;
+    top: 1208px;}
+.placeThree{
+    position: absolute;
+    left: 1015px;
+    top: 1208px;}
+
+/**/
+.team {
+    background: var(--back-color);}
+.team_w{
+    position: absolute;
+    left: 668px;
+    top: 1690px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);}
+.cardOne{
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 215px;
+    top: 1782px;
+    background: var(--main-light);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;  
+}
+.cardTwo{
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 515px;
+    top: 1782px; 
+    background: var(--main-light);   
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.cardThree{
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 815px;
+    top: 1782px;
+    background: var(--main-light);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px; 
+}
+.cardFour{
+    position: absolute;
+    width: 270px;
+    height: 428px;
+    left: 1115px;
+    top: 1782px;   
+    background: var(--main-light);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.nameOne{position: absolute;
+    
+    height: 19px;
+    left: 70px;
+    top: 290px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.jobOne{
+    position: absolute;
+    
+    height: 19px;
+    left: 70px;
+    top: 319px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;  
+    color: #757575;}
+.nameTwo{position: absolute;
+    
+    height: 19px;
+    left: 83px;
+    top: 290px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-color);
+}
+.jobTwo{position: absolute;
+    
+    height: 19px;
+    left: 62px;
+    top: 319px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575; 
+}
+.nameThree{position: absolute;
+ 
+    left: 70px;
+    top: 290px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.jobThree{position: absolute;
+    
+    height: 19px;
+    left: 97px;
+    top: 319px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;}
+.nameFour{position: absolute;
+    height: 19px;
+    left: 63px;
+    top: 290px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color)}
+.jobFour{position: absolute;
+    
+    height: 19px;
+    left: 92px;
+    top: 319px;
+ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.inst{
+    position: absolute;
+    left: 32px;
+    top: 354px;
+}
+.twit{
+    position: absolute;
+    left: 98px;
+    top: 368px;
+}
+.faceb{
+    position: absolute;
+    left: 157px;
+    top: 366px;
+}
+.linke{    position: absolute;
+    left: 206px;
+    top: 366px;}
+
+.inst2{
+    position: absolute;
+    left: 44px;
+    top: 366px;}
+/**/
+
+.client {
+    position: absolute;
+    left: 653px;
+    top: 2398px;
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-color);
+}
+.client1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 215px;
+    top: 2490px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;}
+.client2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 415px;
+    top: 2490px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.client3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 615px;
+    top: 2490px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.client4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 815px;
+    top: 2490px;
+    
+    border: 1px solid var(--main-back);
+    border-radius: 4px;
+}
+.client5{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 1015px;
+    top: 2490px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.client6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 170px;
+    height: 92px;
+    left: 1215px;
+    top: 2490px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+/**/
+footer {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2676px;
+    background: #2F303A;
+}
+.logo_foot{
+    position: absolute;
+    left: 215px;
+    top:60px;
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;  
+    letter-spacing: 0.03em;
+    
+    color: var(--main-back);
+    text-decoration: none;
+}
+.logo_endF{
+    color: var(--main-light);
+}
+.address{}
+.street{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 111px;
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--main-light);
+    text-decoration: none; 
+}
+.street:focus{background: #2F303A;
+}
+.mail_foot{
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 141px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+} 
+.mail_foot:focus{background: #2F303A;   
+}
+.tel_foot {
+    position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 171px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em; 
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;}
+.tel_foot:focus{ background: #2F303A;
+    
+}
+.conect {
+    position: absolute;
+    width: 116px;
+    height: 16px;
+    left: 516px;
+    top: 72px;
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-light);
+}
+.instF{
+    position: absolute;
+    left: 528px;
+    top: 128px;
+}
+.twitF{    position: absolute;
+    left: 570px;
+    top: 120px;}
+.facebF{    position: absolute;
+    left: 641px;
+    top: 120px;}
+.linkF{    position: absolute;
+    left: 690px;
+    top: 120px;}
